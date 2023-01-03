@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.App{
+  background-image: url('./kayra-sercan-v10lH6UUEGw-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+input{
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  width: 50%;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #c2b9ae;
+}
+.info{
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+h4{
+  margin-right: 30px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+h1{
+  margin-right: 30px;
+  font-size: 30px;
+  color: #4790a8;
+  font-weight: 600;
+}
+.temperature{
+  margin-left: 30%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+}
+@media screen and (max-width:768px) {
+  .info{
+    margin-left: 30%;
+    margin-bottom: 40px;
+  }
+  .temperature{
+    margin-left: 15%;
+    width: 70%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
